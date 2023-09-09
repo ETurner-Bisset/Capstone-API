@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, white, lightblue, blue);
+}
+
+h2 {
+    color: red;
+    text-align: center;
+    font-size: 60px;
+}
+
+.search-bar {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    margin: 100px auto;
+    text-align: center;
+    height: 40%;
+    width: 40%;
+}
+
+.card-header {
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.temp, .wind-uv {
+    display: flex;
+    justify-content: space-between;
+}
+
+#card {
+    height: 40%;
+    width: 40%;
+}
+
+p {
+    font-weight: bold;
+}
